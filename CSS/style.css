@@ -1,0 +1,148 @@
+:root{
+    /* - Primary */
+    --Dark-Cyan: rgb(60, 128, 103);
+    --Cream: rgb(242, 234, 226);
+    /* - neutral */
+    --Very-dark-blue: rgb(28, 35, 43);
+    --Dark-grayish-blue: rgb(107, 113, 137);
+    --White: rgb(255, 255, 255);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   background: var(--Cream); 
+}
+
+.card{
+    max-width: 600px;
+    display: flex;
+}
+
+.box-img{
+    width: 300px;
+}
+
+.img-desk{
+    width: 300px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.box-about{
+    width: 300px;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--White);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.about{
+    width: 80%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    text-align: left;
+    font-size: 14px;
+}
+
+.montserrat{
+    font-family: "Montserrat", sans-serif;
+}
+
+.fraunces{
+    font-family: "Fraunces", serif;
+}
+
+.product-name{
+    width: 100%;
+    padding-bottom: 20px;
+    text-align: left;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 3px;
+    color: var(--Dark-grayish-blue);
+}
+
+.product-title{
+    width: 100%;
+    font-size: 30px;
+    padding-bottom: 20px;
+    font-weight: 700;
+    color: var(--Very-dark-blue);
+}
+
+.description{
+    padding-bottom: 20px;
+    font-weight: 500;
+    line-height: 23px;
+    color: var(--Dark-grayish-blue);
+}
+
+.box-price{
+    width: 100%;
+    display: flex;
+    padding-bottom: 25px;
+    text-align: left;
+}
+
+.actual-price{
+    font-size: 30px;
+    font-weight: 700;
+    color: var(--Dark-Cyan);
+}
+
+.antique-price{
+    margin-left: 20px;
+    line-height: 36px;
+    text-decoration: line-through;
+    color: var(--Dark-grayish-blue);
+}
+
+.btn{
+    width: 100%;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border: none;
+    background: var(--Dark-Cyan);
+    cursor: pointer;
+}
+.btn:hover{
+    background: rgb(32, 68, 55);
+}
+
+.value{
+    margin-left: 10px;
+    font-weight: 700;
+    color: var(--White);
+}
+
+.none{
+    display: none;
+}
+
+.attribution {
+    position: absolute;
+    bottom: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 11px;
+    text-align: center;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
